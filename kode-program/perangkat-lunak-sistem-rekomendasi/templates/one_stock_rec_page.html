@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanFreeVest: Halaman Rekomendasi Sebuah Saham</title>
+</head>
+<body>
+
+    <div class="jumbotron jumbotron-sm">
+        <div class="container-baru">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <h1 class="h1">
+                        FinanFreeVest 
+                        <h2><small>Platfrom Rekomendasi Keputusan Dagang Emiten Saham untuk Mendukung Kebebasan Finansial</small></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-baru">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well-coba">
+                    <form action="/" method="post">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="name">
+                                    Saham mana yang ingin anda lihat rekomendasinya?</label>
+                                <select id="subject" name="stock" class="form-control" required="required">
+                                    <option value="all" selected="">Semua</option>
+                                    <option value="asii">ASII</option>
+                                    <option value="amrt">AMRT</option>
+                                    <option value="untr">UNTR</option>
+                                    <option value="unvr">UNVR</option>
+                                    <option value="mapi">MAPI</option>
+                                    <option value="intp">INTP</option>
+                                    <option value="inkp">INKP</option>
+                                    <option value="aces">ACES</option>
+                                    <option value="sido">SIDO</option>
+                                    <option value="hrum">HRUM</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label >
+                                    Anda ingin memprediksi harga saham ini untuk berapa hari kedepan?</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="email" name="num" placeholder="Masukkan Jumlah Hari" /></div> 
+                                <div id="jarak-bawah">
+                                    
+                                    <button type="submit" value="submit" class="btn btn-primary">
+                                        Rekomendasikan Sekarang
+                                    </button>
+                                
+                                    
+                                </div>    
+                                    
+                            </div>
+                        </div>
+
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+            <form>
+                <div id="panjang-prediksi">
+                    <h2><b>Prediksi  {{num}} Hari Ke Depan</b></h2>
+                </div>
+                <div class="kotak-bulet-biru" id="judul-rekomendasi">
+                    <h1>{{long_name}} ({{stock.upper()}})</h1>
+                </div>
+                <div class="harga">
+                    <div id="leftbox">
+                        <h5><b>Harga Sekarang: {{harga}}</b></h5>
+                    </div>
+                    <div id="middlebox">
+                        <h5><b>Harga Prediksi: {{pred}}</b></h5>
+                    </div>
+                    <div id="rightbox">
+                        <h5><b>Selisih : {{selisih}}</b></h5>
+                    </div>
+                    
+                </div>
+                <div id="rekomendasi-title">
+                    <h4>Rekomendasi</h4>
+                </div>          
+                    
+                <div class="kotak-bulet-kuning" id="rec-result">
+                    <h4><b>{{rec}}</b></h4>
+                </div>
+                <div id="deskripsi">
+                    <p>Saham {{stock.upper()}} memiliki kondisi sebagai berikut:</p>
+                        <ul>
+                            <li>Kesehatan kinerja keuangan yang {{rec_fun}}</li>
+                            <li>Pertumbuhan kinerja keuangan yang {{rec_growth}}</li>
+                            <li>Prediksi Harga Saham {{num}} hari ke depan {{rec_point}}</li>
+                          </ul>
+                          <p> {{rec_desc}}</p>
+                        
+                </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</body>
+</html>
+

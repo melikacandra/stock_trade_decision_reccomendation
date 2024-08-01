@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo">
+<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+<style>
+    h1{
+        font-family: "Archivo";
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanFreeVest: Halaman Rekomendasi Semua Saham</title>
+</head>
+<body>
+
+    <div class="jumbotron jumbotron-sm">
+        <div class="container-baru">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <h1 class="h1">
+                        FinanFreeVest 
+                        <h2><small>Platfrom Rekomendasi Keputusan Dagang Emiten Saham untuk Mendukung Kebebasan Finansial</small></h2>
+                        
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-baru">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well-coba">
+                    <form>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="name">
+                                    Saham mana yang ingin anda lihat rekomendasinya?</label>
+                                <select id="subject" name="stock" class="form-control" required="required">
+                                    <option value="all" selected="">Semua</option>
+                                    <option value="asii">ASII</option>
+                                    <option value="amrt">AMRT</option>
+                                    <option value="untr">UNTR</option>
+                                    <option value="unvr">UNVR</option>
+                                    <option value="mapi">MAPI</option>
+                                    <option value="intp">INTP</option>
+                                    <option value="inkp">INKP</option>
+                                    <option value="aces">ACES</option>
+                                    <option value="sido">SIDO</option>
+                                    <option value="hrum">HRUM</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label >
+                                    Anda ingin memprediksi harga saham ini untuk berapa hari kedepan?</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="email" name="num" placeholder="Masukkan Jumlah Hari" /></div> 
+                                <div id="jarak-bawah">
+                                    
+                                    <button type="submit" value="submit" class="btn btn-primary">
+                                        Rekomendasikan Sekarang
+                                    </button>
+                                </div>    
+                                    
+                            </div>
+                        </div>
+
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+            <form>
+                <legend>Rekomendasi Semua Saham untuk {{num}} Hari ke Depan</legend>
+                
+                    <table class="table table-striped custab">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Kode Saham</th>
+                            <th>Nama Perusahaan</th>
+                            <th>Harga Sekarang (Rp)</th>
+                            <th>Harga Prediksi (Rp)</th>
+                            <th>Selisih (Rp)</th>
+                            <th>Rekomendasi</th>
+                            <th class="text-center">Lihat Penjelasan</th>
+                        </tr>
+                    </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>ASII</td>
+                                <td>Astra International Tbk.</td>
+                                <td>{{asii_price}}</td>
+                                <td>{{pred_asii}}</td>
+                                <td>{{selisih_asii}}</td>
+                                <td>{{rec_asii}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>AMRT</td>
+                                <td>Sumber Alfaria Trijaya Tbk.</td>
+                                <td>{{amrt_price}}</td>
+                                <td>{{pred_amrt}}</td>
+                                <td>{{selisih_amrt}}</td>
+                                <td>{{rec_amrt}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>UNTR</td>
+                                <td>United Tractors Tbk.</td>
+                                <td>{{untr_price}}</td>
+                                <td>{{pred_untr}}</td>
+                                <td>{{selisih_untr}}</td>
+                                <td>{{rec_untr}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>UNVR</td>
+                                <td>Unilever Indonesia Tbk.</td>
+                                <td>{{unvr_price}}</td>
+                                <td>{{pred_unvr}}</td>
+                                <td>{{selisih_unvr}}</td>
+                                <td>{{rec_unvr}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>MAPI</td>
+                                <td>Mitra Adi Perkasa Tbk.</td>
+                                <td>{{mapi_price}}</td>
+                                <td>{{pred_mapi}}</td>
+                                <td>{{selisih_mapi}}</td>
+                                <td>{{rec_mapi}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>INKP</td>
+                                <td>Indah Kiat Pulp & Paper Tbk.</td>
+                                <td>{{inkp_price}}</td>
+                                <td>{{pred_inkp}}</td>
+                                <td>{{selisih_inkp}}</td>
+                                <td>{{rec_inkp}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>INTP</td>
+                                <td>Indocement Tunggal Prakasa Tbk.</td>
+                                <td>{{intp_price}}</td>
+                                <td>{{pred_intp}}</td>
+                                <td>{{selisih_intp}}</td>
+                                <td>{{rec_intp}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>ACES</td>
+                                <td>Ace Hardware Indonesia Tbk</td>
+                                <td>{{aces_price}}</td>
+                                <td>{{pred_aces}}</td>
+                                <td>{{selisih_aces}}</td>
+                                <td>{{rec_aces}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>SIDO</td>
+                                <td>Industri Jamu dan Farmasi Sido Tbk.</td>
+                                <td>{{sido_price}}</td>
+                                <td>{{pred_sido}}</td>
+                                <td>{{selisih_sido}}</td>
+                                <td>{{rec_sido}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>HRUM</td>
+                                <td>Harum Energy Tbk.</td>
+                                <td>{{hrum_price}}</td>
+                                <td>{{pred_hrum}}</td>
+                                <td>{{selisih_hrum}}</td>
+                                <td>{{rec_hrum}}</td>
+                                <td class="text-center"><a class='btn btn-info btn-xs' href="#">Baca Rekomendasi</a></td>
+                            </tr>
+
+                    </table>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</body>
+</html>
