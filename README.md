@@ -67,7 +67,7 @@ Aplikasi web dapat dilihat di alamat `http://127.0.0.1:5000`. Salin atau klik li
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/halaman-utama.png)
 Jika anda ingin mematikan aplikasi, masuk ke terminal dan tekal tombol `Ctrl + C` pada keyboard. Maka aplikasi akan mati dan alamat `http://127.0.0.1:5000` tidak dapat diakses.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/halaman-tak-dapat-akses.png)
-<br>
 2. Penggunaan Aplikasi
-*Prediksi untuk Semua Emiten
-*Prediksi untuk Salah Satu Emiten
+Bagian ini menjelaskan tentang penggunaan aplikasi web. Terdapat dua hal yang dapat dilakukan yakni melakukan rekomendasi untuk semua emiten, dan prediksi untuk salah satu emiten.
+* Prediksi untuk Semua Emiten
+* Prediksi untuk Salah Satu Emiten
