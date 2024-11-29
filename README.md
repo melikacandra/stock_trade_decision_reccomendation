@@ -2,7 +2,7 @@
 Aplikasi ini diberi nama FinanFreeVest yang merupakan kepanjangan dari "Financial Freedom Invest" yang menunjukkan makna dari kegiatan investasi yang bertujuan untuk mencapai kebebasan finansial. Aplikasi ini merupakan aplikasi yang dapat memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. <br>
 Tampilan awal dari aplikasi tersebut adalah sebagai berikut.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/halaman-utama.png)
-Proyek ini dibuat oleh Ni Luh Melika Candra Widyani Mas dalam rangka tugas akhir untuk meraih gelar sarjana di bidang Informatika dari Universitas Katolik Parahyangan. Direktori ini terdiri atas dokumen dan kode program dari proyek tersebut. Versi terupdate dari proyek ini dapat diakses melalui https://github.com/melikacandra/stock_trade_decision_reccomendation. <br>
+
 
 
 ## Deskripsi Fungsi
@@ -73,3 +73,6 @@ Jika anda ingin mematikan aplikasi, masuk ke terminal dan tekal tombol `Ctrl + C
 Bagian ini menjelaskan tentang penggunaan aplikasi web. Terdapat dua hal yang dapat dilakukan yakni melakukan rekomendasi untuk semua emiten, dan prediksi untuk salah satu emiten.
 * Prediksi untuk Semua Emiten
 * Prediksi untuk Salah Satu Emiten
+
+## Credit
+Proyek ini dibuat oleh Ni Luh Melika Candra Widyani Mas dalam rangka tugas akhir untuk meraih gelar sarjana di bidang Informatika dari Universitas Katolik Parahyangan. Direktori ini terdiri atas dokumen dan kode program dari proyek tersebut. Versi terupdate dari proyek ini dapat diakses melalui https://github.com/melikacandra/stock_trade_decision_reccomendation. 
