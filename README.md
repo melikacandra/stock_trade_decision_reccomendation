@@ -76,7 +76,10 @@ Hal yang perlu dilakukan adalah mengisi formulir yang berada di sebelah kiri hal
  Misalnya pada contoh di bawah, pengguna ingin melihat rekomendasi saham pada 3 hari kedepan. Maka isian yang dilakukan pada formulir adalah sebagai berikut.
 yang ditampilkan adalah sebagai berikut.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/prediksi-semua.png)
+<br>
 Lalu, pengguna perlu menunggu terlebih dahulu. Hasil yang akan ditampilkan akan seperti pada gambar berikut.
+<br>
+
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/hasil-prediksi-semua.png)
 
 * Prediksi untuk Salah Satu Emiten <br>
@@ -84,7 +87,10 @@ Hal yang perlu dilakukan adalah mengisi formulir yang berada di sebelah kiri hal
 Misalnya pada contoh di bawah, pengguna ingin melihat rekomendasi saham `UNVR` pada 5 hari kedepan. Maka isian yang dilakukan pada formulir adalah sebagai berikut.
 yang ditampilkan adalah sebagai berikut.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/prediksi-salah-satu.png)
+<br>
 Lalu, pengguna perlu menunggu terlebih dahulu. Hasil yang akan ditampilkan akan seperti pada gambar berikut.
+<br>
+
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/hasil-prediksi-salah-satu.png)
 
 
