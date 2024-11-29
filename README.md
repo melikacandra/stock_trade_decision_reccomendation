@@ -1,5 +1,5 @@
 # Pengembangan Sistem Rekomendasi Keputusan Dagang dengan Prediksi Harga Saham dan Laporan Keuangan Emiten
-Aplikasi ini diberi nama FinanFreeVest yang merupakan kepanjangan dari "*Financial Freedom Invest*" yang menunjukkan makna dari kegiatan investasi saham yang bertujuan untuk mencapai kebebasan finansial. Aplikasi ini merupakan aplikasi yang dapat memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. <br>
+Aplikasi ini diberi nama FinanFreeVest yang merupakan kepanjangan dari "*Financial Freedom Invest*" yang menunjukkan makna dari kegiatan investasi saham yang bertujuan untuk mencapai kebebasan finansial. Aplikasi ini  dapat memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. <br>
 Tampilan awal dari aplikasi tersebut adalah sebagai berikut.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/halaman-utama.png)
 
