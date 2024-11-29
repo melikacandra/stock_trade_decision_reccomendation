@@ -17,7 +17,9 @@ Aplikasi ini menggunakan framework Flask yang berbasis python dalam pengembangan
 Download versi python ini di link [ini](https://www.python.org/downloads/release/python-389/)
 * Flask versi 3.0.3 
 masukkan command ini di terminal:
-    pip install flask==3.0.3
+```
+pip install flask==3.0.3
+```
 * Tensorflow versi 2.13.0
 masukkan command ini di terminal:
     pip install tensorflow==2.13.0
