@@ -1,6 +1,6 @@
 # Pengembangan Sistem Rekomendasi Keputusan Dagang dengan Prediksi Harga Saham dan Laporan Keuangan Emiten
 
-Proyek ini dibuat oleh Ni Luh Melika Candra Widyani Mas dalam rangka tugas akhir untuk meraih gelar sarjana di bidang Informatika dari Universitas Katolik Parahyangan. Direktori ini terdiri atas dokumen dan kode program dari proyek tersebut. Versi terupdate dari proyek ini dapat diakses melalui https://github.com/melikacandra/stock_trade_decision_reccomendation.
+Proyek ini dibuat oleh Ni Luh Melika Candra Widyani Mas dalam rangka tugas akhir untuk meraih gelar sarjana di bidang Informatika dari Universitas Katolik Parahyangan. Direktori ini terdiri atas dokumen dan kode program dari proyek tersebut. Versi terupdate dari proyek ini dapat diakses melalui https://github.com/melikacandra/stock_trade_decision_reccomendation. <br>
 Aplikasi ini diberi nama FinanFreeVest yang merupakan kepanjangan dari "Financial Freedom Invest" yang menunjukkan makna dari kegiatan investasi yang bertujuan untuk mencapai kebebasan finansial (financial freedom)
 
 ## Deskripsi Fungsi
@@ -13,28 +13,38 @@ Hasil rekomendasi dihasilkan dari analisis fundamental dan analisis teknikal. An
 
 ## Cara Instalasi
 Aplikasi ini menggunakan framework Flask yang berbasis python dalam pengembangannya. Untuk memastikan aplikasi ini dapat berjalan dengan baik. Terdapat beberapa hal yang perlu di install terlebih dahulu. Hal yang perlu di install beserta cara install nya adalah sebagai berikut:
-* Python versi 3.8.9
+* Python versi 3.8.9 <br>
 Download versi python ini di link [ini](https://www.python.org/downloads/release/python-389/)
-* Flask versi 3.0.3 
+* Flask versi 3.0.3 <br>
 masukkan command ini di terminal:
 ```
 pip install flask==3.0.3
 ```
-* Tensorflow versi 2.13.0
+* Tensorflow versi 2.13.0 <br>
 masukkan command ini di terminal:
-    pip install tensorflow==2.13.0
-* Pandas versi 2.0.3
+```
+pip install tensorflow==2.13.0
+```
+* Pandas versi 2.0.3 <br>
 masukkan command ini di terminal:
+```
     pip install pandas==2.0.3
-* Matplotlib versi 3.7.5
+```
+* Matplotlib versi 3.7.5 <br>
 masukkan command ini di terminal:
+```
     pip install matplotlib==3.7.5
-* Seaborn versi 0.13.2
+```
+* Seaborn versi 0.13.2 <br>
 masukkan command ini di terminal:
+```
     pip install seaborn==0.13.2
-* Scikit-learn versi 1.3.2
+```
+* Scikit-learn versi 1.3.2 <br>
 masukkan command ini di terminal:
+```
     pip install scikit-learn==1.3.2
+```
 ## Cara Menggunakan Aplikasi
 Tutorial untuk menggunakan aplikasi adalah sebagai berikut.
 1. Set Up Aplikasi
