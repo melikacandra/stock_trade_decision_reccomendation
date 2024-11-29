@@ -28,22 +28,22 @@ pip install tensorflow==2.13.0
 * Pandas versi 2.0.3 <br>
 masukkan command ini di terminal:
 ```
-    pip install pandas==2.0.3
+pip install pandas==2.0.3
 ```
 * Matplotlib versi 3.7.5 <br>
 masukkan command ini di terminal:
 ```
-    pip install matplotlib==3.7.5
+pip install matplotlib==3.7.5
 ```
 * Seaborn versi 0.13.2 <br>
 masukkan command ini di terminal:
 ```
-    pip install seaborn==0.13.2
+pip install seaborn==0.13.2
 ```
 * Scikit-learn versi 1.3.2 <br>
 masukkan command ini di terminal:
 ```
-    pip install scikit-learn==1.3.2
+pip install scikit-learn==1.3.2
 ```
 ## Cara Menggunakan Aplikasi
 Tutorial untuk menggunakan aplikasi adalah sebagai berikut.
