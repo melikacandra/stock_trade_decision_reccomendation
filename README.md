@@ -5,7 +5,7 @@ Aplikasi ini diberi nama FinanFreeVest yang merupakan kepanjangan dari "Financia
 
 ## Deskripsi Fungsi
 
-<p> Aplikasi ini merupakan aplikasi berbasis web yang berfungsi untuk memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. Rekomendasi yang diberikan berupa rekomendasi untuk membeli (buy) atau menahan untuk tidak membeli (hold) saham tertentu. Jenis rekomendasi yang diberikan terdapat 3 jenis yakni: </p>
+Aplikasi ini merupakan aplikasi berbasis web yang berfungsi untuk memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. Rekomendasi yang diberikan berupa rekomendasi untuk membeli (buy) atau menahan untuk tidak membeli (hold) saham tertentu. Jenis rekomendasi yang diberikan terdapat 3 jenis yakni:
 * Beli Kuat (Strong Buy)
 * Beli Lemah (Weak Buy)
 * Jangan Beli (Hold) <br>
