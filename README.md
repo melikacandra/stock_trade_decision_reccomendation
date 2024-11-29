@@ -77,7 +77,7 @@ Hal yang perlu dilakukan adalah mengisi formulir yang berada di sebelah kiri hal
 yang ditampilkan adalah sebagai berikut.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/prediksi-semua.png)
 <br>
-<p> Lalu, pengguna perlu menunggu terlebih dahulu. Hasil yang akan ditampilkan akan seperti pada gambar berikut.
+&nbsp;&nbsp;&nbsp;&nbsp; Lalu, pengguna perlu menunggu terlebih dahulu. Hasil yang akan ditampilkan akan seperti pada gambar berikut.
 <br>
 
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/hasil-prediksi-semua.png)
