@@ -72,7 +72,7 @@ Jika anda ingin mematikan aplikasi, masuk ke terminal dan tekal tombol `Ctrl + C
 2. Penggunaan Aplikasi <br>
 Bagian ini menjelaskan tentang penggunaan aplikasi web. Terdapat dua hal yang dapat dilakukan yakni melakukan rekomendasi untuk semua emiten, dan prediksi untuk salah satu emiten.
 * Prediksi untuk Semua Emiten <br>
-Hal yang perlu dilakukan adalah mengisi formulir yang berada di sebelah kiri halaman utama. maka pada isian dengan judul `Saham mana yang ingin anda lihat rekomendasinya` pilih `Semua`. Lalu, pada isian dengan judul `Ànda ingin memprediksi harga saham ini untuk berapa hari kedepan?` pilih jumlah hari yang ingin anda prediksi. Setelah itu tekan tombol `Rekomendasikan Sekarang`. <br>
+Hal yang perlu dilakukan adalah mengisi formulir yang berada di sebelah kiri halaman utama. maka pada isian dengan judul `Saham mana yang ingin anda lihat rekomendasinya?` pilih `Semua`. Lalu, pada isian dengan judul `Ànda ingin memprediksi harga saham ini untuk berapa hari kedepan?` pilih jumlah hari yang ingin anda prediksi. Setelah itu tekan tombol `Rekomendasikan Sekarang`. <br>
  Misalnya pada contoh di bawah, pengguna ingin melihat rekomendasi saham pada 3 hari kedepan. Maka isian yang dilakukan pada formulir adalah sebagai berikut.
 yang ditampilkan adalah sebagai berikut.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/prediksi-semua.png)
@@ -80,7 +80,7 @@ Lalu, pengguna perlu menunggu terlebih dahulu. Hasil yang akan ditampilkan akan 
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/hasil-prediksi-semua.png)
 
 * Prediksi untuk Salah Satu Emiten <br>
-Hal yang perlu dilakukan adalah mengisi formulir yang berada di sebelah kiri halaman utama. maka pada isian dengan judul `Saham mana yang ingin anda lihat rekomendasinya` pilih salah satu kode saham yang tersedia. Lalu, pada isian dengan judul `Ànda ingin memprediksi harga saham ini untuk berapa hari kedepan?` pilih jumlah hari yang ingin anda prediksi. Setelah itu tekan tombol `Rekomendasikan Sekarang`. <br>
+Hal yang perlu dilakukan adalah mengisi formulir yang berada di sebelah kiri halaman utama. maka pada isian dengan judul `Saham mana yang ingin anda lihat rekomendasinya?` pilih salah satu kode saham yang tersedia. Lalu, pada isian dengan judul `Ànda ingin memprediksi harga saham ini untuk berapa hari kedepan?` pilih jumlah hari yang ingin anda prediksi. Setelah itu tekan tombol `Rekomendasikan Sekarang`. <br>
 Misalnya pada contoh di bawah, pengguna ingin melihat rekomendasi saham `UNVR` pada 5 hari kedepan. Maka isian yang dilakukan pada formulir adalah sebagai berikut.
 yang ditampilkan adalah sebagai berikut.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/prediksi-salah-satu.png)
