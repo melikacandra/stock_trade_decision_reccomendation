@@ -1,5 +1,5 @@
 # Pengembangan Sistem Rekomendasi Keputusan Dagang dengan Prediksi Harga Saham dan Laporan Keuangan Emiten
-Aplikasi ini diberi nama FinanFreeVest yang merupakan kepanjangan dari "Financial Freedom Invest" yang menunjukkan makna dari kegiatan investasi yang bertujuan untuk mencapai kebebasan finansial. Aplikasi ini merupakan aplikasi yang dapat memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. <br>
+Aplikasi ini diberi nama FinanFreeVest yang merupakan kepanjangan dari "*Financial Freedom Invest*" yang menunjukkan makna dari kegiatan investasi saham yang bertujuan untuk mencapai kebebasan finansial. Aplikasi ini merupakan aplikasi yang dapat memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. <br>
 Tampilan awal dari aplikasi tersebut adalah sebagai berikut.
 ![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/halaman-utama.png)
 
@@ -7,16 +7,21 @@ Tampilan awal dari aplikasi tersebut adalah sebagai berikut.
 
 ## Deskripsi Fungsi
 
-Aplikasi ini merupakan aplikasi berbasis web yang berfungsi untuk memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. Rekomendasi yang diberikan berupa rekomendasi untuk membeli (buy) atau menahan untuk tidak membeli (hold) saham tertentu. Jenis rekomendasi yang diberikan terdapat 3 jenis yakni:
-* Beli Kuat (Strong Buy)
-* Beli Lemah (Weak Buy)
-* Jangan Beli (Hold) <br>
+Aplikasi ini merupakan aplikasi berbasis web yang berfungsi untuk memberikan rekomendasi keputusan dalam hal kegiatan jual-beli saham. Rekomendasi yang diberikan berupa rekomendasi untuk membeli (*buy*) atau menahan untuk tidak membeli (*hold*) saham tertentu. Jenis rekomendasi yang diberikan terdapat 3 jenis yakni:
+* Beli Kuat (*Strong Buy*)
+* Beli Lemah (*Weak Buy*)
+* Jangan Beli (*Hold*) <br>
 <p> Hasil rekomendasi dihasilkan dari analisis fundamental dan analisis teknikal. Analisis fundamental dihasilkan dari rasio-rasio laporan keuangan, sedangkan analisis teknikal dihasilkan dari prediksi harga saham yang memanfaatkan deep learning dengan arsitektur LSTM (Long Short Term Memory). Kombinasi dari kedua analisis ini menghasikan rekomendasi harga saham. Pada aplikasi ini digunakan 10 sampel emiten dari bursa saham Indonesia berdasarkan Indeks LQ45 (bluechip). Emiten tersebut antara lain: ASII, AMRT, UNTR, UNVR, MAPI, INKP, INTP, ACES, SIDO, dan HRUM. </p>
 
 ## Cara Instalasi
 Aplikasi ini menggunakan framework Flask yang berbasis python dalam pengembangannya. Untuk memastikan aplikasi ini dapat berjalan dengan baik. Terdapat beberapa hal yang perlu di install terlebih dahulu. Hal yang perlu di install beserta cara install nya adalah sebagai berikut:
 * Python versi 3.8.9 <br>
 Download versi python ini di link [berikut](https://www.python.org/downloads/release/python-389/)
+* Pip versi 24.3.1 <br>
+masukkan command ini di terminal:
+```
+pip install pip==24.3.1
+```
 * Flask versi 3.0.3 <br>
 masukkan command ini di terminal:
 ```
