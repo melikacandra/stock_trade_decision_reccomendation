@@ -64,7 +64,7 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
 ```
 Aplikasi web dapat dilihat di alamat `http://127.0.0.1:5000`. Salin atau klik link tersebut sehingga browser terbuka. Maka aplikasi web yang ditampilkan adalah sebagai berikut.
-
+![alt text](https://raw.githubusercontent.com/melikacandra/stock_trade_decision_reccomendation/refs/heads/main/gambar/halaman-utama.png)
 Jika anda ingin mematikan aplikasi, masuk ke terminal dan tekal tombol `Ctrl + C` pada keyboard. Maka aplikasi akan mati dan alamat `http://127.0.0.1:5000` tidak dapat diakses.
 2. Penggunaan Aplikasi
 *Prediksi untuk Semua Emiten
